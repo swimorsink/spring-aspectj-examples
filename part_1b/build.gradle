@@ -1,0 +1,31 @@
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "net.uberfoo.gradle:gradle-aspectj:2.2"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'aspectj'
+
+repositories {
+  mavenCentral()
+}
+
+aspectj {
+  version = '1.9.1'
+}
+
+mainClassName = 'co.thinkfaster.ApplicationMain'
+
+dependencies {
+  aspectpath 'org.springframework:spring-aspects:5.1.2.RELEASE'
+  compile group: 'org.springframework', name: 'spring-aspects', version: '5.1.2.RELEASE'
+  compile group: 'org.springframework', name: 'spring-core', version: '5.1.2.RELEASE'
+  compile group: 'org.springframework', name: 'spring-context', version: '5.1.2.RELEASE'
+}
