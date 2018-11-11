@@ -1,0 +1,16 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+  mavenCentral()
+}
+
+mainClassName = 'co.thinkfaster.ApplicationMain'
+
+dependencies {
+  compile group: 'org.springframework', name: 'spring-core', version: '5.1.2.RELEASE'
+  compile group: 'org.springframework', name: 'spring-context', version: '5.1.2.RELEASE'
+
+
+}
