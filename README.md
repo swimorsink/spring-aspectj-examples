@@ -26,17 +26,17 @@ gradle run
 
 ## Documentation
 
-Running the programs isn't that useful, unless you want to see that they don't throw NullPointer exceptions, and that the @Autowired's are working correctly.
+Running the programs isn't that useful, unless you want to see how they don't throw NullPointerExceptions, and that the @Autowired's are injected correctly.
 
 It's more useful to browse the code and adapt the gradle files to your own use, especially in the compile time weaving and load time weaving cases, given that those builds are non-trivial.
 
 I would also encourage you to play with the annotations required on the Spring classes. Experiment with adding and removing annotations to better understand how Spring and AspectJ work together.
 
-This project was motivated by many hours of debugging Spring @Autowired's being null when they shouldn't have been null.
+This project was motivated by many hours of debugging Spring @Autowired's being null when they shouldn't have been.
 
-In the process, I was incredibly confused by the mixed documentation between the various ways you can use Spring and AspectJ.
+In the process, I was confused by the mixed documentation between the various ways you can use Spring and AspectJ.
 
-What I needed were simple examples with the minimum set of annotations needed to make things 'work'. Hopefully these examples save you time.
+What I needed were simple examples with the minimum set of annotations needed to make things 'work'. Hopefully these snippets save you time.
 
 ## External Links
 
