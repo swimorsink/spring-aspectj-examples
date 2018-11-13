@@ -36,7 +36,11 @@ This project was motivated by many hours of debugging Spring @Autowired's being 
 
 In the process, I was confused by the mixed documentation between the various ways you can use Spring and AspectJ.
 
-What I needed were simple examples with the minimum set of annotations needed to make things 'work'. Hopefully these snippets save you time.
+What I needed were simple examples with the minimum set of annotations needed to make things 'work'.
+
+I focused on using objects created outside of the Spring context. In other words, they were created using `new` instead of `context.getBean()`. I still needed the Autowireds to work properly because we were adding Spring to a legacy codebase where instantiating everything via Spring was not an option.
+
+Hopefully these snippets save you time.
 
 ## External Links
 
