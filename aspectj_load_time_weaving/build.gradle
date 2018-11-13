@@ -30,5 +30,4 @@ dependencies {
 
 configurations.aopAgent.files.each {
   applicationDefaultJvmArgs += ["-javaagent:${it}"]
-  println it
 }
