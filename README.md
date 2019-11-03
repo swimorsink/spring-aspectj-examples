@@ -6,7 +6,7 @@ Examples of Spring Dependency Injection using
 - AspectJ load time weaving
 - AspectJ Compile time weaving
 
-[I explained the contents of this repo in much greater detail here.](https://thinkfaster.co/2018/11/why-in-the-world-is-my-spring-autowired-null/) I try to give a summary of it below.
+[I explained the contents of this repo in much greater detail here.](https://thinkfaster.co/2018/11/why-in-the-world-is-my-spring-autowired-null/) I try to give a summary below.
 
 ## Why is my @Autowired null!?
 
