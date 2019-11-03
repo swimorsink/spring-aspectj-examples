@@ -6,6 +6,8 @@ Examples of Spring Dependency Injection using
 - AspectJ load time weaving
 - AspectJ Compile time weaving
 
+[I explained the contents of this repo in much greater detail here.](https://thinkfaster.co/2018/11/why-in-the-world-is-my-spring-autowired-null/) I try to give a summary of it below.
+
 ## Why is my @Autowired null!?
 
 This project was motivated by many hours of debugging Spring @Autowired's being null when they shouldn't have been.
@@ -31,7 +33,6 @@ Before you dive in, here is a laundry list of suggestions to try when you encoun
 - If you’re encountering @Autowired instances being null only within IntelliJ but not when you run your code from the command line using Gradle:
   - Change the Test Runner in IntelliJ to use Gradle.
 
-[I explained these in much greater detail here.](https://thinkfaster.co/2018/11/why-in-the-world-is-my-spring-autowired-null/)
 
 ## Running
 
